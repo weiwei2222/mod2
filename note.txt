@@ -1,0 +1,10 @@
+$ npm create vite@latest
+√ Project name: ... week8day1 -- u need to give name
+√ Select a framework: » React  --select react
+√ Select a variant: » JavaScript   -- select javascript
+y1\week8day1
+Done. Now run:
+ cd week8_day1_hw
+ npm install
+ npm run dev
+to fill components auto - Rfce- auto fill

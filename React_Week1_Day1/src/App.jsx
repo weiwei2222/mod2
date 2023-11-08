@@ -13,10 +13,10 @@ function App() {
   return (
     <div className="grid-container">
       <Dashboard />
-      <Reviews />
-      <Rating />
-      <Analysis />
-      <Visitors />
+      <Reviews reviews="1,281" />
+      <Rating rating="4.6" />
+      <Analysis analysis="960" />
+      <Visitors visitors="821" />
     </div>
   );
 }

@@ -1,11 +1,12 @@
 import React from "react";
 
-function Analysis() {
-    return (
-        <div className="analysis">this is Analysis
-        </div>
-    )
-  }
-  
-  export default Analysis
-  
+function Analysis(props) {
+  return (
+    <div className="analysis">
+      this is Analysis
+      <p>{props.analysis}</p>
+    </div>
+  );
+}
+
+export default Analysis;

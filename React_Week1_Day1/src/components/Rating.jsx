@@ -1,7 +1,11 @@
 import React from "react";
 
-function Rating() {
-  return <div className="rating">this is Rating</div>;
+function Rating(props) {
+  return (
+    <div className="rating">
+      this is Rating<p>{props.rating}</p>
+    </div>
+  );
 }
 
 export default Rating;
