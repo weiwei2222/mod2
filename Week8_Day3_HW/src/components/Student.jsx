@@ -4,7 +4,7 @@ import Score from "./Score";
 function Student({ studentObj }) {
   return (
     <div>
-      <div>student name is : {studentObj.name}</div>
+      <h3>student name is : {studentObj.name}</h3>
       <div>student bio is : {studentObj.bio}</div>
       <div>
         {/* {console.log(studentObj)} */}
