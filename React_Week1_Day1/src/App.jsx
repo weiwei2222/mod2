@@ -10,12 +10,13 @@ import Visitors from "./components/Visitors";
 import "./style.css";
 
 function App() {
+  const analysisData = [960, 122, 321];
   return (
     <div className="grid-container">
       <Dashboard />
       <Reviews reviews="1,281" />
       <Rating rating="4.6" />
-      <Analysis analysis="960" />
+      <Analysis analysis={analysisData} key={analysisData} />
       <Visitors visitors="821" />
     </div>
   );

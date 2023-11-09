@@ -1,10 +1,12 @@
 import React from "react";
 
-function Analysis(props) {
+function Analysis({ analysis }) {
   return (
     <div className="analysis">
       this is Analysis
-      <p>{props.analysis}</p>
+      {analysis.map((analysisNum) => (
+        <p>{analysisNum}</p>
+      ))}
     </div>
   );
 }
