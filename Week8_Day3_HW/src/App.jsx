@@ -70,8 +70,8 @@ function App() {
 
   return (
     <div>
-      {studentData.students.map((student) => (
-        <Student studentObj={student} key={student.name} />
+      {studentData.students.map((student, index) => (
+        <Student key={index} studentObj={student} />
       ))}
     </div>
   );
