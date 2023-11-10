@@ -16,7 +16,7 @@ function App() {
       <Dashboard />
       <Reviews reviews="1,281" />
       <Rating rating="4.6" />
-      <Analysis analysis={analysisData} key={analysisData} />
+      <Analysis analysis={analysisData} />
       <Visitors visitors="821" />
     </div>
   );

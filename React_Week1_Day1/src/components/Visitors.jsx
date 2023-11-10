@@ -1,10 +1,10 @@
 import React from "react";
 
-function Visitors(props) {
+function Visitors({ analysis }) {
   return (
     <div className="visitors">
       this is Visitors.
-      <p>{props.visitors}</p>
+      <p>{analysis}</p>
       <div className="chart">test</div>
     </div>
   );
