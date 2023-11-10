@@ -8,8 +8,8 @@ function Student({ studentObj }) {
       <div>student bio is : {studentObj.bio}</div>
       <div>
         {/* {console.log(studentObj)} */}
-        {studentObj.scores.map((score) => (
-          <Score scoreOjt={score} key={studentObj.name} />
+        {studentObj.scores.map((score, index) => (
+          <Score scoreOjt={score} key={index} />
         ))}
       </div>
     </div>
