@@ -25,9 +25,7 @@ function App() {
     try {
       // fetch with the url, returns the same thing as when i put that url in the address bar
       const response = await fetch(url);
-      console.log(url);
       const data = await response.json();
-      console.log(data);
       setMovie(data);
     } catch (e) {
       console.error(e);
@@ -38,7 +36,7 @@ function App() {
     const movieArray = ["Titanic", "Mulan", "Toy Story", "Clueless"];
     getMovie(movieArray[Math.floor(Math.random() * movieArray.length)]);
   }, []);
-
+  console.log(movie);
   return (
     <div className="App">
       <Form moviesearch={getMovie} />
